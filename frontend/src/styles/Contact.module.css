@@ -1,0 +1,111 @@
+
+.page {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f9ff;
+  min-height: 100vh;
+}
+
+.header {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #2f557bff, #073883ff);
+  color: white;
+}
+
+.headerTitle {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.headerSub {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+.mainContainer {
+  max-width: 1100px;
+  margin: 40px auto;
+  display: flex;
+  gap: 40px;
+  padding: 0 20px;
+}
+
+.formCard {
+  flex: 1;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  border: 1px solid #d7e8ff;
+}
+
+.cardTitle {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #0a3d62;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input {
+  padding: 14px;
+  border-radius: 10px;
+  border: 2px solid #1e90ff;
+  font-size: 15px;
+  outline: none;
+}
+
+.textarea {
+  padding: 14px;
+  border-radius: 10px;
+  border: 2px solid #1e90ff;
+  min-height: 140px;
+  font-size: 15px;
+  resize: vertical;
+}
+
+.button {
+  padding: 15px;
+  background-color: #1e90ff;
+  color: white;
+  font-size: 17px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #0c79e0;
+}
+
+.status {
+  margin-top: 10px;
+  color: green;
+}
+
+.infoBox {
+  width: 350px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid #d7e8ff;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  height: fit-content;
+}
+
+.infoTitle {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #0a3d62;
+}
+
+.list {
+  margin-top: 10px;
+  padding-left: 20px;
+  line-height: 1.7;
+}
