@@ -14,9 +14,9 @@ import ScreenShareIcon from '@mui/icons-material/ScreenShare';
 import StopScreenShareIcon from '@mui/icons-material/StopScreenShare'
 import ChatIcon from '@mui/icons-material/Chat'
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
-// import server from '../environment';
+import server from '../environment';
 
-const server_url = "http://localhost:8080";
+const server_url = server;
 
 
 
